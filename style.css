@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#first-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.825),rgba(0, 0, 0, 0.6)),url(images/covid-image.jpg) ;
+    background-size: cover;
+
+}
+
+#heading{
+    color: rgb(176 163 163);
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 700%;
+}
+
+#content{
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    margin-top: 9%     ;
+    color: #9793a0;
+    font-size: 150%;
+    line-height:40px ;
+    font-family: 'Roboto', sans-serif;
+}
+#Wcorona{
+    display: block;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+#container-1{
+    height:50rem ;
+    width: 100rem;
+    background-color: white;
+}
+
+#F1pic{
+    height: 49rem;
+    width: 40rem;
+    display: inline-block;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.9)),url(images/F1.jpg) ;
+    background-size: cover;
+    border-radius: 3%;
+    box-shadow: 10px 10px 50px rgb(48, 35, 35);
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+#F2pic{
+    height: 49rem;
+    width: 55rem;
+    display: inline-block;
+    background-color: black;
+}
+#F2pic01{
+    height: 24rem;
+    width: 50rem;
+    position: absolute;
+    margin-top: 2%;
+    background-color: black;
+    margin-left: 2%;
+}
+
+#quote{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
+}
