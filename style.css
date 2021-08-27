@@ -56,3 +56,39 @@ body{
     background-size: cover;
      box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);;
 }
+#sec2-text{
+    height: 90%;
+    width: 55%;
+    display:inline-block; 
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#sec2-text h2{ 
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#sec2-text h3{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#sec2-text img{
+    height: 15%;
+    width: 15%;'
+}
+
+#sec2-text span{
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: -4%;
+    font-size: 30px;
+    font-family: ;
+}
+
