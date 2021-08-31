@@ -21,6 +21,20 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 850%;
 }
+.amazing{
+    animation: change;
+    animation-duration: 1.5s;
+    -o-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    from{
+
+    }
+    to{
+        color: transparent;
+    }
+}
 
 #content{
     color: white;
@@ -98,6 +112,7 @@ body{
     font-size: 30px;
     padding: 10px;
     background-color: green;
+    border-radius: 10px;
     color: white;
     position: absolute;
     top: 100%;
